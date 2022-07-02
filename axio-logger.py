@@ -37,7 +37,6 @@ def synchronize(port):
     port.read(16)
     while True:
         a = port.read(8)
-        print(len(a))
         if len(a) == 8:
             # Set port timeout to handle the expected arrival rate
             port.timeout = 400
