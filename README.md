@@ -9,8 +9,8 @@ the following commands.
 
 ```
 virtualenv venv -p /usr/bin/python3
-pip install bitarray serial
 . venv/bin/activate
+pip install bitarray pyserial
 ```
 
 ## Execution
