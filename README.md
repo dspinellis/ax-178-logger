@@ -1,7 +1,8 @@
 # AXIO MET AX-178 multimeter logger
 This program allows logging of the AXIO MET AX-178 multimeter from
 the command line.
-It has been tested on Debian Linux.
+It was developed by reverse-engineering the sent data.
+The code has been tested on Debian Linux.
 
 ## Installation
 Install the  `bitarray` and `serial` packages, e.g. through
